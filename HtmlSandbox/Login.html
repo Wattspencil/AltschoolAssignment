@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="csssandbox/style.css" />
+    <title>Login</title>
+  </head>
+  <body>
+    <header>
+      <nav id="navbar">
+        <div class="container">
+          <h1 class="logo"><a href="/Index.html">MATT</a></h1>
+          <ul>
+            <li><a href="Index.html">About</a></li>
+            <li><a href="Contact.html">Contact</a></li>
+            <li><a href="Register.html">Register</a></li>
+            <li><a class="Current" href="Login.html">Sign in</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <section id="contact-form" class="py-3">
+      <div class="container">
+        <div class="form-wrap">
+          <h1>Sign in</h1>
+          <form action="process.php">
+            <div class="form-group">
+              <label for="username">Username</label>
+              <input
+                type="text"
+                placeholder="Type in your Username"
+                name="username"
+                id="username"
+              />
+            </div>
+            <div>
+              <label for="password">Password</label>
+              <input
+                type="password"
+                placeholder="Password"
+                name="password"
+                id="password"
+              />
+            </div>
+            <div class="clr"></div>
+            <button type="Sign in" class="btn">Sign in</button>
+          </form>
+          <p>Forgot Password? <a href="#">Click here</a></p>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
